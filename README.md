@@ -3,7 +3,7 @@
 Par équipe de 5 personnes maximum réaliser le site web suivant : 
 
 Chaque équipe est attribuer un dépôt git faite à partir de cette base:
-[dépôt de base](git@github.com:iknsa-formation-tp/html-css-bower-grunt-compass.git)
+[dépôt de base](https://github.com/iknsa-formation-tp/html-css-bower-grunt-compass)
 
 Les dépendences doivent être gérer avec bower. La seule dépendence nécessaire pour ce projet est jquery v 1.12.0 même si on l'utilisera pas ici.
 
