@@ -31,8 +31,17 @@ section {
 .bloc {
 	margin-left:25px;
 	float:left;
-	background:green;
+	background:white;
 	width:280px;
+
+	p {
+		margin-bottom: 15px;
+		display: block;
+		color: #AAA;
+		font-size: 11px;
+		font-family: georgia;    
+		line-height: 18px;
+	}
 }
 
 .titre_bloc {
@@ -62,7 +71,13 @@ section {
 
 .coms_img {
   margin-top: 15px;
+  font-weight: bold;
+  margin: 0px 0px 15px;
+  font-family: "HelveticaNeue";
+  font-size: 12px;
+  line-height: 18px;
 }
+
 
 /*
 $float_left : left;
