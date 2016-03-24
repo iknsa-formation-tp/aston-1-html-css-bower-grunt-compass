@@ -1,0 +1,322 @@
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	
+	.center {
+		width: 712px;
+		}
+	#selectnav1,#selectnav2{display:none;}
+.logo {
+margin-top: 25px;
+width: 244px;
+}
+.logo h1 {
+  font-size: 25px;
+}
+.logo p {
+  float: left;
+  font-size: 10px;
+  margin-left: 10px;
+  margin-top: 15px;
+  padding-left: 5px;
+}
+.header_add {
+  margin-top: 20px;
+}
+#nav2 li a {
+  font-size: 10px;
+  padding: 13px;
+}
+#nav2 li a span {
+  font-size: 6px;
+}
+#nav2 li ul li a {
+  font-size: 7px;
+}
+.main_content {
+  border-right: 0 solid #ddd;
+  width: 100%;
+  float:none;
+}
+.main_content_container {
+margin-left: -40px;
+}	
+.single_content {
+  margin-left: 40px;
+  width: 309px;
+}
+.single_content_feature {
+  width: 309px;
+}
+.single_content_feature > a img {
+  width: 296px;
+}
+.single_content_latest_post {
+  margin-left: 40px;
+  padding-right: 0;
+  width: 96%;
+}
+.sidebar {
+  float: none;
+  margin: 25px auto 0px;
+  width: 300px;
+}
+.single_footer_top {
+  width: 156px;
+}
+}
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+	.center {
+		width: 252px;
+
+	}
+	#selectnav1{display: block;
+margin-top: 8px;
+width: 66%;}
+	#selectnav2{background: url("images/main_menu_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+	border: medium none;
+	color: #999;
+	padding: 10px;
+	width: 100%;
+	display:block;
+	font-size:10px;}
+	#nav,#nav2{display:none;}
+
+.header_left {
+  overflow: hidden;
+}
+.logo {
+float: none;
+margin: 15px auto;
+}
+.header_add {
+  margin-top: 0;
+  width: 436px;
+  display:none;
+}
+.content {
+margin-top: -160px;
+}
+#header_bottom_area {
+min-height: 117px;
+}
+.main_content {
+  border-right: 0 solid #ddd;
+  float: none;
+  width: 100%;
+}
+.main_content_container {
+  margin-left: 0;
+}
+.single_content {
+  float: none;
+  margin: 0 auto 25px;
+  width: 100%
+}
+.single_content_latest_post {
+  margin-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+.latest_post_img {
+float: none;
+margin: 0 auto;
+width: 100px;
+}	
+.latest_post_title {
+float: none;
+width: 100%;
+}
+.sidebar {
+float: none;
+margin: 20px auto;
+width: 100%;
+}
+.single_sidebar input {
+  width: 88%;
+}
+.footer_top_container {
+  margin-left: 0;
+}
+.single_footer_top {
+  margin: 0 auto 20px;
+  width: 224px;
+  float:none;
+}
+.copyright {
+  float: none;
+  text-align: center;
+}
+.footer_bottom_text {
+  float: none;
+  text-align: center;
+}
+
+.header_bottom_area {
+  min-height: 130px;
+}
+.slider_bottom_border {
+  height: 10px;
+  margin-bottom: 25px;
+  margin-top: -11px;
+}
+.single_content_feature > a img {
+width: 93%;
+height:120px;
+}
+.single_home_content_title {
+  width: 137px;
+}
+.single_content_feature {
+  max-height: 330px;
+  min-height: 330px;
+}
+.latest_post_title h2 {
+  margin-bottom: 0;
+  line-height: 14px;
+  margin-top: 10px;
+}
+.latest_post_title h2 a {
+  font-size: 10px;
+}
+.latest_post_title span {
+  font-size: 8px;
+}
+}
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	.center {
+		width: 436px;
+
+	}
+	#selectnav1{display: block;margin-top: 8px;width: 80%;}
+#selectnav2{background: url("images/main_menu_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+border: medium none;
+color: #999;
+padding: 10px;
+width: 100%;display:block;}
+	#nav,#nav2{display:none;}
+.header_left {
+  overflow: hidden;
+}
+.logo {
+float: none;
+margin: 15px auto;
+}
+.header_add {
+  margin-top: 0;
+  width: 436px;
+  display:block;
+}
+.content {
+margin-top: -246px;
+}
+#header_bottom_area {
+  min-height: 200px;
+}
+.main_content {
+  border-right: 0 solid #ddd;
+  float: none;
+  width: 100%;
+}
+.main_content_container {
+  margin-left: 0;
+}
+.single_content {
+  float: none;
+  margin: 0 auto 25px;
+  width: 280px;
+}
+.single_content_latest_post {
+  margin-left: 0;
+  padding-right: 0;
+  width: 100%;
+}
+.latest_post_img {
+width: 100px;
+float: left;
+margin-right: 10px;
+}	
+.latest_post_title {
+  width: 264px;
+}
+.sidebar {
+  width: 300px;
+  float: none;
+  margin: 20px auto;
+}
+.footer_top_container {
+  margin-left: 0;
+}
+.single_footer_top {
+  margin: 0 auto 20px;
+  width: 224px;
+  float:none;
+}
+.copyright {
+  float: none;
+  text-align: center;
+}
+.footer_bottom_text {
+  float: none;
+  text-align: center;
+}
+
+
+.header_bottom_area {
+  min-height: 210px;
+}
+.single_home_content_title {
+  width: 219px;
+}
+.single_sidebar input {
+  width: 92%;
+}
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+	body {
+	
+	}
+	
+}
