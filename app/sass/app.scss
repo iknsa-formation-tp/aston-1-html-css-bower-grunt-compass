@@ -1,3 +1,125 @@
-body {
-	background: red;
+@import "_mixin";
+
+body{
+	background:red;
+	width:984px;;
+	margin: 0 200px;
 }
+
+article {
+	background:blue;
+	min-height:400px;
+	text-align:left;
+}
+
+aside {
+	float:right;
+	width:306px;	
+	min-height:200px;
+	background:black;
+}
+
+section {
+	float:left;
+	width:630px;
+	padding: 0 25px;
+	min-height:150px;
+	background:yellow;
+} 
+
+
+.bloc {
+	margin-left:25px;
+	float:left;
+	background:green;
+	width:280px;
+}
+
+.titre_bloc {
+  color: #444;
+  font-family: georgia;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 16px;
+  font-weight: normal;
+  margin: 0px 0px 15px;
+  padding: 0px;
+}
+
+.a {
+  color:black;
+  text-decoration: none;
+  @extend .bordure_img;
+  border: 1px solid #DDD;
+}
+
+.bordure_img {
+  border: 1px solid #DDD;
+  height: 155px;
+  padding: 5px;
+  width: 268px;
+}
+
+.coms_img {
+  margin-top: 15px;
+}
+
+/*
+$float_left : left;
+$width_margin_left : 25px;
+$main_content_area_border : 2px solid #DDD;
+
+
+body {
+  font-family: Arial;
+  font-size: 12px;
+  line-height: 18px;
+}
+ 
+.main_content_container {
+  margin-left: -$width_margin_left;
+}
+
+.main_content {
+  border-right: 1px solid #DDD;
+  width: 605px;
+}
+
+.content {
+  background: #FFF none repeat scroll 0px 0px;
+  border-radius: 6px;
+  margin-top: -461px;
+}
+.main_content_area { 
+  /border-left:  @include $main_content_area_border1();/
+  @include main_content_area_border1(border-left);
+  /border-left: $main_content_area_border;/
+  border-right: $main_content_area_border;
+  border-bottom: $main_content_area_border;
+  padding: $width_margin_left ;
+}
+
+.slider_area {
+  position: relative;
+}
+
+.center {
+  width: 984px;
+  display: block;
+  margin: 0px auto;
+}
+
+.floatleft {
+  float: $float_left;
+}
+
+.fix {
+  overflow: hidden;
+}
+
+.single_content{
+  margin-left: $width_margin_left ;
+  width: 280px;
+  margin-bottom: 30px;	
+}
+*/
