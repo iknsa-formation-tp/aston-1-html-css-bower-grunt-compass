@@ -93,7 +93,7 @@ px      68    160    252    */
 	#selectnav1{display: block;
 margin-top: 8px;
 width: 66%;}
-	#selectnav2{background: url("images/main_menu_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+	#selectnav2{background: url("../images/main_menu_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
 	border: medium none;
 	color: #999;
 	padding: 10px;
@@ -221,7 +221,7 @@ px      68    160    252    344    436    */
 
 	}
 	#selectnav1{display: block;margin-top: 8px;width: 80%;}
-#selectnav2{background: url("images/main_menu_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+#selectnav2{background: url("../images/main_menu_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
 border: medium none;
 color: #999;
 padding: 10px;
