@@ -1,3 +1,149 @@
 body {
-	background: red;
-}
+	font-family: Arial;
+	font-size: 12px;
+	line-height: 18px;
+	margin: 0px;
+	padding: 0px;
+	
+	}
+
+	.main_content_area {
+    border-style: solid;
+    border-width: 2px;
+    padding: 25px;
+    width: 60%;
+    margin: auto;
+    display: block;
+	}
+
+	.fix {
+    overflow: hidden;
+	}
+
+	.main_content {
+    border-right: 1px solid #DDD;
+    width: 605px;
+	}
+
+		
+
+	.sidebar {
+    width: 30%;
+    float: right;
+    padding: 10px;
+	}
+
+	.floating-box {    
+    display: block;
+    width: 30%;
+    height: 75px;
+    margin: 10px;
+    margin-left: 70%;
+    border: 3px solid #73AD21;  
+	}
+
+	.after-box {
+    border: 3px solid red; 
+	}
+	
+
+	.box {
+    margin-bottom: 20px;
+	}
+
+	.box h2 span {    
+    margin-left: -100px;
+	}
+
+	.box h2 {
+    background: transparent url("../images/title_bg.png") repeat scroll 0px 0px;
+    color: #444;
+    font-family: georgia;
+    font-size: 12px;
+    font-style: italic;
+    line-height: 16px;
+    margin-left: 100px;
+	}
+
+	.sidebar input {
+    padding: 10px;
+    width: 92%;
+	}
+
+	input[type="text"], input[type="password"], input[type="submit"], textarea {
+    border: 1px solid #DDD;
+    padding: 5px;
+    outline: medium none;
+	}
+
+	img {
+    max-width: 100%;
+    height: auto;
+    border: medium none;
+	}
+
+	ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: outside none none;
+	}
+
+	.box ul li a {
+    color: #444;
+    display: inline-block;
+    font-family: HelveticaNeue;
+    font-size: 14px;
+    margin-right: 7px;
+    padding: 10px 0px;
+	}
+
+	.box ul li a:hover, .sidebar a {
+    color: #E47600;
+	}
+
+	a {
+    text-decoration: none;
+    color: #000;
+	}
+
+	h2 {
+    font-size: 25px;
+    line-height: 30px;
+	}
+	h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    margin: 0px 0px 15px;
+	}
+	h1, h2, h3, h4, h5, h6 {
+    font-family: "HelveticaNeue" !important;
+	}
+
+	#tags a {
+    display: inline-block;
+    font-family: "HelveticaNeue" !important;
+    font-size: 18px;
+    padding: 7px 10px;
+    text-align: left;
+    background: #666 none repeat scroll 0% 0%;
+    color: #FFF;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    border-radius: 5px 0px;
+    transition: all 1s ease 0s;
+	}
+
+	.scroll_to_top {
+    background: transparent url("../images/title_bg2.png") repeat scroll 0px 0px;
+    margin: 50px 0px 0px;
+    padding: 10px 20px;
+	}
+
+	.scroll_to_top a {
+    color: #787878;
+    font-family: georgia;
+    font-style: italic;
+    float: right;
+	}
+
+
+
