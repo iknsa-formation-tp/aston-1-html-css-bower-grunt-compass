@@ -1,6 +1,25 @@
-
-@mixin main_content_area_border1($placement)
+@mixin bordure_img ($var1,$var2)
 {
-	$placement :2px solid #DDD;
+  border: 1px solid #DDD;
+  height: $var1;
+  padding: 5px;
+  width: $var2;
+  float:left;
+}
 
+@mixin long($var3)
+{
+  width: $var3;
+}
+
+@mixin coms_img($var4)
+{
+  margin-top: 15px;
+  font-weight: bold;
+  margin: 0px 0px 15px;
+  font-family: "HelveticaNeue";
+  font-size: 12px;
+  line-height: 18px;
+  float: left;
+  width:$var4;
 }
