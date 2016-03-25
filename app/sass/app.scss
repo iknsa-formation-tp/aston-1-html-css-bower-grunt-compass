@@ -2,20 +2,18 @@ body {
 	font-family: Arial;
 	font-size: 12px;
 	line-height: 18px;
+	margin: 0px;
+	padding: 0px;
 	
 	}
-
-	.center {
-    width: 60%;
-    display: block;
-    margin: 0px auto;
-	}
-	
 
 	.main_content_area {
     border-style: solid;
     border-width: 2px;
     padding: 25px;
+    width: 60%;
+    margin: auto;
+    display: block;
 	}
 
 	.fix {
@@ -26,13 +24,26 @@ body {
     border-right: 1px solid #DDD;
     width: 605px;
 	}
-	
 
 		
 
 	.sidebar {
     width: 30%;
     float: right;
+    padding: 10px;
+	}
+
+	.floating-box {    
+    display: block;
+    width: 30%;
+    height: 75px;
+    margin: 10px;
+    margin-left: 70%;
+    border: 3px solid #73AD21;  
+	}
+
+	.after-box {
+    border: 3px solid red; 
 	}
 	
 
@@ -54,6 +65,23 @@ body {
     margin-left: 100px;
 	}
 
+	.sidebar input {
+    padding: 10px;
+    width: 92%;
+	}
+
+	input[type="text"], input[type="password"], input[type="submit"], textarea {
+    border: 1px solid #DDD;
+    padding: 5px;
+    outline: medium none;
+	}
+
+	img {
+    max-width: 100%;
+    height: auto;
+    border: medium none;
+	}
+
 	ul {
     margin: 0px;
     padding: 0px;
@@ -69,7 +97,7 @@ body {
     padding: 10px 0px;
 	}
 
-	.box ul li a:hover, .single_sidebar a {
+	.box ul li a:hover, .sidebar a {
     color: #E47600;
 	}
 
