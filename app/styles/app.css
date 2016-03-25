@@ -1,4 +1,192 @@
-/* line 1, ../sass/app.scss */
+/*body {
+	background: red;
+}*/
+/* line 4, ../sass/app.scss */
+.footer_top {
+  margin-top: 110px;
+}
+
+/* line 5, ../sass/app.scss */
+.footer_top_container {
+  margin-left: -15px;
+  padding: 20px;
+}
+
+/* line 7, ../sass/app.scss */
+.single_footer_top {
+  margin-left: 15px;
+  width: 224px;
+  color: #999999;
+  font-size: 12px;
+  font-family: "HelveticaNeue";
+}
+
+/* line 12, ../sass/app.scss */
+.single_footer_top h2 {
+  background: url("../images/footer_title.png") repeat scroll 0 0 transparent;
+  color: #bbbbbb;
+  font-family: georgia !important;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 16px;
+  margin-left: 100px;
+}
+
+/* line 19, ../sass/app.scss */
+.single_footer_top h2 span {
+  margin-left: -100px;
+}
+
+/* line 21, ../sass/app.scss */
+.single_footer_top ul li {
+  border-bottom: 1px solid #383838;
+}
+
+/* line 22, ../sass/app.scss */
+.single_footer_top ul li a {
+  color: #dddddd;
+  display: inline-block;
+  font-family: "HelveticaNeue";
+  font-size: 12px;
+  padding: 6px 0;
+}
+
+/* line 27, ../sass/app.scss */
+.single_footer_top ul li a:hover {
+  color: #fff;
+}
+
+/* line 29, ../sass/app.scss */
+.footer_logo p {
+  float: right;
+  text-align: right;
+}
+
+/* line 31, ../sass/app.scss */
+.footer_logo h1 {
+  color: #f1eee5;
+  float: right;
+  font-family: helvetica;
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 42px;
+  margin-bottom: 12px;
+}
+
+/* line 38, ../sass/app.scss */
+.footer_bottom {
+  color: #999999;
+  padding: 20px;
+}
+
+/* line 42, ../sass/app.scss */
+.footer_top_container {
+  margin-left: 0;
+}
+
+/* line 45, ../sass/app.scss */
+.single_footer_top {
+  margin: 0 auto 20px;
+  width: 224px;
+  float: none;
+}
+
+/* line 50, ../sass/app.scss */
+.copyright {
+  float: none;
+  text-align: center;
+}
+
+/* line 54, ../sass/app.scss */
+.footer_bottom_text {
+  float: none;
+  text-align: center;
+}
+
+/* line 58, ../sass/app.scss */
+.footer_top_container {
+  margin-left: 0;
+}
+
+/* line 61, ../sass/app.scss */
+.single_footer_top {
+  margin: 0 auto 20px;
+  width: 224px;
+  float: none;
+}
+
+/* line 66, ../sass/app.scss */
+.copyright {
+  float: none;
+  text-align: center;
+}
+
+/* line 70, ../sass/app.scss */
+.footer_bottom_text {
+  float: none;
+  text-align: center;
+}
+
+/* line 75, ../sass/app.scss */
+.floatleft {
+  float: left;
+}
+
+/* line 76, ../sass/app.scss */
+.floatright {
+  float: right;
+}
+
+/* line 78, ../sass/app.scss */
+.center {
+  width: 984px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 79, ../sass/app.scss */
+.fix {
+  overflow: hidden;
+}
+
+/* line 80, ../sass/app.scss */
+#footer_top_area {
+  background: url("../images/footer_bg.png") repeat scroll 0 0 transparent;
+  border-bottom: 10px solid #333333;
+  border-top: 10px solid #333333;
+  margin-top: 90px;
+  padding-bottom: 30px;
+}
+
+/* line 87, ../sass/app.scss */
 body {
-  background: red;
+  font-family: Arial;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* line 88, ../sass/app.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  margin: 0 0 15px;
+}
+
+/* line 89, ../sass/app.scss */
+h2 {
+  font-size: 25px;
+  line-height: 30px;
+}
+
+/* line 90, ../sass/app.scss */
+img {
+  max-width: 100%;
+  height: auto;
+  border: none;
+}
+
+/* line 91, ../sass/app.scss */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
