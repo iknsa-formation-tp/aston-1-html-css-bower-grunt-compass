@@ -1,0 +1,11 @@
+@font-face {
+	font-family: 'HelveticaNeue';
+	src: url('./HelveticaNeue.eot');
+	src: local('HelveticaNeue'), url('./HelveticaNeue.woff') format('woff'), url('./HelveticaNeue.ttf') format('truetype');
+}
+/* use this class to attach this font to any element i.e. <p class="fontsforweb_fontid_7551">Text with this font applied</p> */
+h1,h2,h3,h4,h5,h6{
+	font-family: 'HelveticaNeue' !important;
+}
+
+/* Font downloaded from FontsForWeb.com */

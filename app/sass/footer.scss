@@ -1,0 +1,91 @@
+/*body {
+	background: red;
+}*/
+.footer_top{margin-top: 110px;}
+.footer_top_container{margin-left: -15px;
+padding: 20px;}
+.single_footer_top{margin-left: 15px;
+width: 224px;
+color: #999999;
+font-size: 12px;
+font-family: "HelveticaNeue";}
+.single_footer_top h2{background: url("../images/footer_title.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+color: #bbbbbb;
+font-family: georgia !important;
+font-size: 12px;
+font-style: italic;
+line-height: 16px;
+margin-left: 100px;}
+.single_footer_top h2 span{margin-left: -100px;}
+.single_footer_top ul{}
+.single_footer_top ul li{border-bottom: 1px solid #383838;}
+.single_footer_top ul li a{color: #dddddd;
+display: inline-block;
+font-family: "HelveticaNeue";
+font-size: 12px;
+padding: 6px 0;}
+.single_footer_top ul li a:hover{color:#fff;}
+.footer_logo{}
+.footer_logo p{float: right;
+text-align: right;}
+.footer_logo h1{color: #f1eee5;
+float: right;
+font-family: helvetica;
+font-size: 34px;
+font-weight: bold;
+line-height: 42px;
+margin-bottom: 12px;}
+.footer_bottom{color: #999999;
+padding: 20px;}
+.copyright{}
+.footer_bottom_text{}
+.footer_top_container {
+  margin-left: 0;
+}
+.single_footer_top {
+  margin: 0 auto 20px;
+  width: 224px;
+  float:none;
+}
+.copyright {
+  float: none;
+  text-align: center;
+}
+.footer_bottom_text {
+  float: none;
+  text-align: center;
+}
+.footer_top_container {
+  margin-left: 0;
+}
+.single_footer_top {
+  margin: 0 auto 20px;
+  width: 224px;
+  float:none;
+}
+.copyright {
+  float: none;
+  text-align: center;
+}
+.footer_bottom_text {
+  float: none;
+  text-align: center;
+}
+
+.floatleft{float:left}
+.floatright{float:right}
+
+.center{width:984px;display:block;margin:0 auto}
+.fix{overflow:hidden}
+#footer_top_area{background: url("../images/footer_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+border-bottom: 10px solid #333333;
+border-top: 10px solid #333333;
+margin-top: 90px;
+padding-bottom: 30px;}
+#footer_bottom_area{}
+
+body{font-family:Arial;font-size:12px;line-height:18px}
+h1,h2,h3,h4,h5,h6{font-weight:normal;margin:0 0 15px;}
+h2 {font-size:25px;line-height:30px}
+img{max-width:100%;height:auto;border:none}
+ul{margin:0;padding:0;list-style:none;}
