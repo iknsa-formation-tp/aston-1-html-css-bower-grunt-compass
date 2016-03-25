@@ -1,0 +1,95 @@
+@import "_mixin";
+
+body{
+  background:red;
+  width:984px;;
+  margin: 0 200px;
+}
+
+article {
+  background:blue;
+  min-height:400px;
+  text-align:left;
+}
+
+aside {
+  float:right;
+  width:300px;	
+  min-height:200px;
+  background:black;
+}
+
+section {
+  float:left;
+  width:630px;
+  padding: 0 25px;
+  min-height:150px;
+  background:yellow;
+} 
+
+a {
+  text-decoration: none;
+}
+
+.bloc {
+  margin-left:25px;
+  float:left;
+  background:white;
+  width:50%;
+  .author {
+  	font-weight: normal;
+    bloc:float;
+    margin-bottom: 15px;
+    color: #AAA;
+    font-size: 11px;
+    font-family: georgia;
+    line-height: 18px;
+    a {
+      @extend .author;
+    }
+    a:hover {
+      color:red;
+    }
+  }
+  a {
+      color:black;
+      text-decoration: none;
+    }
+  p {
+    margin-bottom: 10px;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    color: #555;
+    padding-bottom:10px;
+    border-bottom: 1px solid #DDD;
+    float:left;
+  }
+}
+
+.titre_bloc {
+  color: #444;
+  font-family: georgia;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 16px;
+  font-weight: normal;
+  margin: 0px 0px 15px;
+  padding: 0px;
+}
+
+.bordure_img {
+  @include bordure_img (155px,268px);
+}
+
+.bordure_img1 {
+  @include bordure_img (45px,45px);
+}
+
+.coms_img {
+ @include coms_img (100%);
+}
+
+.coms_img1 {
+  @include coms_img (218px);
+}
